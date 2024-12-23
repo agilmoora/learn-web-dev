@@ -1,0 +1,26 @@
+html{
+    background-color:#1e1e1e;
+    color: bisque;
+}
+.ghost{
+    display: none;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   transition: .3s all ease-in-out; 
+}
+.selectGameBtn{
+    background-color: transparent;
+    border:2px transparent solid;
+    color: white;
+    cursor: pointer;
+
+    &:hover{
+        border: 2px red solid
+    }
+}
+#gamesList{
+    position: absolute;
+}
